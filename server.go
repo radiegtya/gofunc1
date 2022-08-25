@@ -13,7 +13,7 @@ func main() {
 	client := microgen.NewClient("1dbc2a74-60c6-4f64-92bc-b311a26164df", microgen.DefaultURL())
 
 	e.GET("", func(c echo.Context) error {
-		return c.String(http.StatusOK, "hello world")
+		return c.String(http.StatusOK, "hello ERA!")
 	})
 
 	products := e.Group("/products")
